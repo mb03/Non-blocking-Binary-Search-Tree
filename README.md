@@ -1,7 +1,3 @@
-README.md
-
-___________________________________________________________________________
-
 ## Non-blocking Binary Search Tree
 
 The present project is a fully customizable implementation of a Non-blocking Binary Search Tree, as described in the related [paper](http://delivery.acm.org/10.1145/1840000/1835736/p131-ellen.pdf?ip=193.205.210.41&id=1835736&acc=ACTIVE%20SERVICE&key=296E2ED678667973%2E532136EDD1F8E584%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=755787675&CFTOKEN=37018692&__acm__=1493290649_24c43d99d03a765400030cdee77ec1fa).
