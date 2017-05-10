@@ -1,0 +1,25 @@
+<project name="Non-blocking Binary Search Tree" default="dist" basedir=".">
+  <property name="src" location="src"/>
+  <property name="build" location="build"/>
+  <property name="dist" location="dist"/>
+
+  <target name="init">
+    <tstamp/>
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="compile" depends="init">
+    <javac srcdir="${src}" destdir="${build}"/>
+  </target>
+
+  <target name="dist" depends="compile">
+    <jar jarfile="${dist}/Non-BlockingBinarySearchTree.jar" basedir="${build}"/>
+    <delete dir="${build}"/>
+  </target>
+
+  <target name="clean"
+        description="clean up">
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+  </target>
+</project>
